@@ -3,7 +3,7 @@
 # Then type: 'sudo chmod u+x ./3Pip3.sh' and enter This will set the necessary file permissions. 
 # To run the bash script type './3pip3.sh'.
 
-echo "Installing basic dependencies"
+echo "Installing basic dependencies (Python3; pip3 coomands)"
 echo "If some part doesn't install properly, you can run the whole script again or the line that didn't work."
 
 echo installing via pip3
