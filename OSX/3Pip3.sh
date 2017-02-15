@@ -5,7 +5,6 @@
 echo installing via pip3
 
 pip3 install --upgrade pip
-pip3 install --user --upgrade cozmo
 
 # SDK Installation via Pip3
 echo "setting Cozmo up via pip3"
