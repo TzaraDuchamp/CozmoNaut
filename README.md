@@ -43,4 +43,4 @@ The showcases require a bit more installs via pip and brew.
 5c is only recommend to users that feel comfortable with experimenting and that want to reinstall Python, since this is in the script. 
 You can comment that line out, but if you didn't install Python via '2aBrews.sh' it might not work properly. CozmoTools are not
 yet officially supported to run on OS X.
-* __5cShowcaseCozmoTools.sh__ This is a project by Professor David S. Touretzky at Carnegie Mellon University, showcased on the forum.
+* __5cShowcaseCozmoTools.sh__ this is a project by Professor David S. Touretzky at Carnegie Mellon University, showcased on the forum.
