@@ -16,6 +16,7 @@ echo "If some part doesn't install properly, you can run the whole script again 
 echo "reinstalling Python3 to add Tkinter"
 # inspired by http://stackoverflow.com/questions/36760839/why-my-python-installed-via-home-brew-not-include-tkinter
 # trying to fix 'May not work on Macs due to Tkinter brokenness', mentioned by professor Touretzky. 
+brew tap homebrew/dupes
 brew reinstall python3 --with-tcl-tk
 #brew install python3 --with-tcl-tk
 
