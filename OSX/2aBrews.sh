@@ -11,6 +11,7 @@ echo "installing GitHub"
 brew install git
 echo "installing Python"
 # brew install python3 # will install standard version
+brew tap homebrew/dupes
 brew install python3 --with-tcl-tk
 
 brew update
