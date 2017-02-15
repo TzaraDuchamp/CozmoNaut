@@ -9,10 +9,11 @@ pip3 install --upgrade pip
 # SDK Installation via Pip3
 echo "setting Cozmo up via pip3"
 pip3 install --user 'cozmo[camera]'
-echo "if Cozmo isn't installed properly you can try to run 'python3 -m pip install --user cozmo[camera]'"
 pip3 install --user --upgrade cozmo
 
 
 pip3 list
 echo "Above a list of installed pip3 packages"
 echo "Get to know pip3 commands: https://manned.org/pip3"
+echo "if Cozmo isn't installed properly you can try to run 'python3 -m pip install --user cozmo[camera]'"
+
