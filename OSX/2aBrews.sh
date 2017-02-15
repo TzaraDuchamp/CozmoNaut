@@ -3,7 +3,7 @@
 # Then type: 'sudo chmod u+x ./2aBrews.sh' and enter This will set the necessary file permissions. 
 # To run the bash script type './2aBrews.sh'.
 
-echo Installing Brews
+echo "Installing basic dependencies (brews)"
 echo "If some part doesn't install properly, you can run the whole script again or the line that didn't work."
 
 brew update
