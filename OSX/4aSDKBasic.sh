@@ -2,6 +2,7 @@
 # If file permissions asked, you should open terminal type 'cd' and drag folder in terminal and then enter. 
 # Then type: 'sudo chmod u+x ./4aSDKBasic.sh' and enter This will set the necessary file permissions. 
 # To run the bash script type './4aSDKBasic.sh'.
+
 cd
 echo "cloning SDK"
 git clone https://github.com/anki/cozmo-python-sdk
