@@ -10,9 +10,11 @@ brew update
 echo "installing GitHub"
 brew install git
 echo "installing Python"
-# brew install python3 # will install standard version
-brew tap homebrew/dupes
-brew install python3 --with-tcl-tk
+brew install python3 # will install standard version
+
+# Python3 with tkinter. This can be usefull for more complex programs. Cozmo Tools, 5c, seems to need it". 
+# brew tap homebrew/dupes
+# brew install python3 --with-tcl-tk
 
 brew update
 echo "installing Android dependencies"
@@ -20,6 +22,5 @@ brew install android-platform-tools
 echo "installing iOS dependencies, just in case iTunes isn't installed"
 brew install usbmuxd
 
-echo "If you already have python3 installed, consider reinstalling it with tkinter. This can be usefull for more complex programs."
-echo "Run this command in the terminal: 'brew reinstall python3 --with-tcl-tk'"
+
 
