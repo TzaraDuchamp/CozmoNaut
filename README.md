@@ -42,12 +42,15 @@ yet officially supported to run on OS X.
 * __5dShowcaseCozmoTools.sh__ this is a project by Professor David S. Touretzky at Carnegie Mellon University, showcased on the forum.
 
 Relevant SDK forum pages:
+
 https://forums.anki.com/t/import-cozmo-not-found-working-now/265/43 
 https://forums.anki.com/t/cozmo-animation-explorer-v2-0/312
 https://forums.anki.com/t/cozmo-explorer-tool-v0-5/56227
 https://forums.anki.com/t/cozmo-voice-commands-cvc-0-6-7-update-issue-multiple-commands-at-once/3079
 
+
 Relevant GitHub:
+
 https://github.com/touretzkyds/cozmopedia/wiki
 https://github.com/anki/cozmo-python-sdk
 https://github.com/GrinningHermit/Cozmo-Animation-Explorer
@@ -55,8 +58,11 @@ https://github.com/GrinningHermit/Cozmo-Explorer-Tool
 https://github.com/rizal72/Cozmo-Voice-Commands
 https://github.com/touretzkyds/cozmo-tools
 
+
 Other sites:
+
 http://docs.brew.sh/Troubleshooting.html
 https://manned.org/pip3
 http://www.cs.cmu.edu/afs/cs/academic/class/15494-s17/
 http://stackoverflow.com/questions/36760839/why-my-python-installed-via-home-brew-not-include-tkinter
+
