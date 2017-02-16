@@ -1,7 +1,7 @@
 #!/bin/bash
 # If file permissions asked, you should open terminal type 'cd' and drag folder in terminal and then enter. 
-# Then type: 'sudo chmod u+x ./5cShowcaseCozmoTools.sh' and enter This will set the necessary file permissions. 
-# To run the bash script type './5cShowcaseCozmoTools.sh'.
+# Then type: 'sudo chmod u+x ./5dShowcaseCozmoTools.sh' and enter This will set the necessary file permissions. 
+# To run the bash script type './5dShowcaseCozmoTools.sh'.
 
 Echo "Cloning Cozmo Tools."
 cd
@@ -47,21 +47,24 @@ brew install Caskroom/cask/xquartz
 brew install homebrew/x11/freeglut
 
 cd ~/cozmo-tools
-echo "These are the files in that folder:"
+echo "These should be the files in that folder:"
 ls
-echo "'nano ~/cozmo-tools/simple_cli' to open the file."
-echo "change the first line: '#!/usr/bin/python3 -i' into  '#!/usr/bin/env python3 -i'"
-echo "press 'crtl O' to save changes"
-echo "press 'crtl x' to close the file"
+echo 1. "Go to folder with 'cd ~/cozmo-tools/'"
+echo 2. "'nano ~/cozmo-tools/simple_cli' to open the file."
+echo 3. "change the first line: '#!/usr/bin/python3 -i' into  '#!/usr/bin/env python3 -i'"
+echo 4. "press 'crtl O' to save changes"
+echo 5. "press 'crtl x' to close the file"
 
 echo 1. "Plug the mobile device containing the Cozmo app into your computer."
 echo 2. "Open the Cozmo app on the phone. "
 echo 3. "Make sure Cozmo is on and connected to the app via WiFi."
 echo 4. "Tap on the gear icon at the top right corner to open the Settings menu."
 echo 5. "Swipe left to show the Cozmo SDK option and tap the 'Enable SDK' button."
-echo 6. "If not already in it, go to folder with 'cd ~/cozmo-tools/'"
+echo 6. "Go to folder with 'cd ~/cozmo-tools/'"
 echo 7 "Type './simple_cli VIEWER' to run the file and press enter"
-
+cd ~/cozmo-tools
+echo "These should be the files in that folder:"
+ls
 echo "Prompt commands:"
 echo "Type 'robot.drive_off_charger_contacts()' in the prompt to drive off the charger."
 echo "Type 'robot.drive_straight(distance_mm(100),speed_mmps(50)).wait_for_completed()' in the prompt to drive forward 100."

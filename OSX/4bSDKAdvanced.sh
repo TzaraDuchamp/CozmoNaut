@@ -22,12 +22,12 @@ echo 2. "Open the Cozmo app on the phone. "
 echo 3. "Make sure Cozmo is on and connected to the app via WiFi."
 echo 4. "Tap on the gear icon at the top right corner to open the Settings menu."
 echo 5. "Swipe left to show the Cozmo SDK option and tap the 'Enable SDK' button."
-echo 6. "If not already in it, go to folder with 'cd ~/cozmo-python-sdk/examples/apps'"
+echo 6. "Go to folder with 'cd ~/cozmo-python-sdk/examples/apps'"
 echo 7 "Type './remote_control_cozmo.py' and press enter"
 
 cd
 cd ~/cozmo-python-sdk/examples/apps
-echo "These are the files in that folder:"
+echo "These should be the files in that folder:"
 ls
 
 
