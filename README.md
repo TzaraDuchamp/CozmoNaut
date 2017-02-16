@@ -23,7 +23,7 @@ These are all the bash scripts:
 * __1Homebrew.sh__ installs HomeBrew on OS X via the terminal.
 
 * __2aBrews.sh__ installs the basic brews you need for running Cozmo on OS X.
-* __2bTroubleshootBrews.sh__ troubleshoots brews, often needed if there wasn't a clean install of OS X.
+* __2bTroubleshootBrews.sh__ checks health status of Homebrew, often needed if there wasn't a clean install of OS X.
 * __3Pip3.sh__ installs the basic pips you need for running Cozmo on OS X.
 
 * __4aSDKBasic.sh__ clones the Cozmo SDK repository and helps you run the 'Hello World' example.
